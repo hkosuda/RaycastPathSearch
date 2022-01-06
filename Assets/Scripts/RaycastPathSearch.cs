@@ -191,11 +191,6 @@ public class RaycastPathSearch
 
             path.Reverse();
 
-            foreach (var p in path)
-            {
-                Debug.Log(p);
-            }
-
             return path;
         }
     }

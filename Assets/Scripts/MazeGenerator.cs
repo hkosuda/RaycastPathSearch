@@ -93,7 +93,6 @@ public class MazeGenerator
             for (int roopB = 0; roopB < 10000; roopB++)
             {
                 List<int> validIndexList = new List<int>();
-                // Debug.Log(string.Concat("A:", roopA.ToString(), "B:",roopB.ToString()));
 
                 for (int m = 0; m < 4; m++)
                 {
